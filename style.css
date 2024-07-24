@@ -27,19 +27,22 @@ main {
 
 article {
     width: 90vw;
-    height: 120vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 article > figure > img {
     width: 20rem;
     border-radius: 50%;
     margin-top: 2rem;
+    margin-left: 3rem;
 }
 article > h1 {
     font-size: 2.8rem;
     margin-top: 2rem;
+    margin-left: 3rem;
 }
 .github {
     display: flex;
@@ -47,6 +50,7 @@ article > h1 {
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
+    margin-left: 3rem;
 }
 
 .github > a {
@@ -75,6 +79,12 @@ article > h1 {
 }
 .lista {
     margin-top: 2rem;
+    width: 90vw;
+    height: 100%;
+    margin-left: 3rem;
+}
+.lista > ul {
+    padding: 0 5rem;
 }
 
 .projetos {
@@ -83,6 +93,7 @@ article > h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 3rem;
 }
 div {
     display: flex;
@@ -118,6 +129,7 @@ div > figure > img {
 article > p {
     font-size: 2rem;
     margin-top: 5rem;
+    margin-left: 3rem;
 }
 article > p > strong {
     font-size: 2.5rem;
